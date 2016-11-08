@@ -142,16 +142,19 @@
 
 <div class= "container">
 			<div class= "row">
-				<div class="col-sm-1 col-sm-offset-1>"
+				<div class="col-sm-4 col-sm-offset-4">
+
 	<h1>Logi sisse</h1>
 		<form method="POST"> 
+		
 			<p style="color:red;"><?=$error;?></p>
 			
 			<input name="loginEmail" placeholder="E-post" type="Email">
 			<br><br>
 			<input name="loginPassword" placeholder="Parool" type="password">
 			<br><br>
-			<input class="btn btn-success btn-sm" type="submit" value="Logi sisse">
+			<input class="btn btn-success btn-block visible-xs-block" type="submit" value="Logi sisse1">
+			<input class="btn btn-success btn-sm hidden-xs" type="submit" value="Logi sisse2">
 			
 		</form>
 		

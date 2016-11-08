@@ -127,7 +127,7 @@
 	$html .= "</tr>";
 	
 	//iga liikme kohta massiivis
-	foreach($getSingleCarData as $c){
+	foreach($carData as $c){
 		// iga auto on $c
 		//echo $c->plate."<br>";
 		
@@ -147,7 +147,7 @@
 	
 	$listHtml = "<br><br>";
 	
-	foreach($getSingleCarData as $c){
+	foreach($carData as $c){
 		
 		
 		$listHtml .= "<h1 style='color:".$c->color."'>".$c->plate."</h1>";
@@ -159,4 +159,3 @@
 	
 	
 ?>
-	<?php require("../header.php"); ?>
